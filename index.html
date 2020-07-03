@@ -1,0 +1,37 @@
+ <html> 
+    <head>
+        <title>My Reminders</title>
+        <script src="main.js" async ></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+
+        <!-- in html file styles for font -->
+        <style>
+            body{
+                font-family: "Finger Paint";
+            }
+        </style>
+
+<!-- bootstrap for styling -->
+    </head>
+    <body class="container">
+        <div class="main">
+            <h1 class="text-center">Jasmeet's TO-DO List</h1>
+                <h2> Add new task to list</h2>
+                <div class="row">
+                    <input class="col-sm-8" type="text" id="input" placeholder="please add new task to list">
+                    <button class="col-sm-4 p-3" id="addTask">Add</button>
+                </div>
+        </div>
+        <div><br><hr>
+            <h3>Tasks to-do</h3>
+            <hr/>
+            <div id="tasks">
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
